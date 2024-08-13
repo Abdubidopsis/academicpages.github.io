@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Abdubidopsis"
+title: <h1 class="live-written">Welcome to Abdubidopsis</h1>
 excerpt: "About me"
 author_profile: true
 redirect_from: 
