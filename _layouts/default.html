@@ -9,6 +9,32 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- Add Google Font for Handwriting Effect -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Add custom CSS for live writing effect -->
+    <style>
+      .live-written {
+        font-family: 'Pacifico', cursive;
+        font-size: 3rem;
+        color: #333;
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+      }
+
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+
+      @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: #333; }
+      }
+    </style>
   </head>
 
   <body>
